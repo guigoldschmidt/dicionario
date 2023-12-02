@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o Body para alinhar todo o conteúdo no centro | Nesse caso a nossa div do GRID */
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;  /* Junto do 'Flex' faz com que os itens fiquem em colunas, um abaixo do outro. */
+
+    width: 100%;
+    overflow:auto;
+
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    gap: 2rem;
+}
+
+.pagina_header{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#nome{
+    align-self: flex-end;
+    margin-right: 1rem;
+}
+
+#header_titulo{
+    align-items: flex-start;
+    margin-left: 1rem;
+}
